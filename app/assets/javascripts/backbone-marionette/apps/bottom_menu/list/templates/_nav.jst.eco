@@ -1,0 +1,9 @@
+<div class="main-icon-<%= @id %>">
+  <i class="<%= @icon %>"></i>
+  <% if @coins: %>
+    <div class="notify"><p><%= @tickets %></p></div>
+  <% end %>
+</div>
+<div class="text-icon">
+  <%- @linkTo @name , @url %>
+</div>

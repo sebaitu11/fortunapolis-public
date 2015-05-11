@@ -1,0 +1,14 @@
+<div class="image-container">
+  <img src="/assets/<%= @product.image %>" alt="">
+</div>
+<div class="info-container">
+  <div class="title-name">
+    <h3><%= @product.name %></h3>
+  </div>
+  <div class="closed-time">
+    <h4><%= @closed_time %></h4>
+  </div>
+  <div class="number-of-bets">
+    <p>Nº of bets <%= @user_bets%></p>
+  </div>
+</div>

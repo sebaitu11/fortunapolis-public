@@ -1,0 +1,20 @@
+<div class="modal-dialog bet-now-modal">
+    <div class="modal-content">
+      <i class="fa fa-times-circle exit"></i>
+      <div class="modal-body padding-bottom">
+        <p><%= @product.description %></p>
+        <h4><%= @product.name %></h4>
+        <div class="amount-bet">
+          <h2>Amount of Bets</h2>
+          <p><%= @value %></p>
+        </div>
+        <div class="coins">
+          <h2>Total Spent Coins</h2>
+          <p><%= @coins %></p>
+        </div>
+      </div>
+      <div class="bet-now-button-modal">
+        <p>Bid Now!!!!</p>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,7 @@
+<div class="search">
+  <form>
+    <input class="typeahead" id="query" type="search" incremental>
+    <i class="fa fa-search"></i>
+  </form>
+</div>
+<div class="auctions "></div>

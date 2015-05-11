@@ -1,0 +1,29 @@
+.title {
+  font-size: 1.6em;
+}
+.sign-up-view {
+  background: #131416;
+}
+.form {
+  color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  input {
+    border: none;
+    border-radius: 14px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+  }
+  .submit {
+    margin-top: 1em;
+    .submit-button {
+      background: rgb(100, 143, 0);
+    }
+    input {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}

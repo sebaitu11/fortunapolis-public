@@ -1,0 +1,13 @@
+<div class="bet-container">
+  <a  class="minus">
+    <i class="fa fa-chevron-down"></i>
+  </a>
+  <div class="amount">
+    <p><%= @value %></p>
+  </div>
+  <a class="plus">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+  <div class="bet-button"><p>Place Bid</p></div>
+  <div class="coins"><p>Total spent coins: <%= @coins_amount %></p></div>
+</div>

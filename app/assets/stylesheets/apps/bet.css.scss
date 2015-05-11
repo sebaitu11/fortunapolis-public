@@ -1,0 +1,96 @@
+#bet-region {
+  background: #131415;
+  width: 100%;
+  padding: 0.2em 20px;
+  .bet-container { overflow: hidden;}
+  .coins {
+    float: left;
+    text-align: center;
+    width: 100%;
+    p {
+      color: #ccc;
+      font-size: 1em;
+      margin: 0.3em 0 0 0 ;
+    }
+  }
+  .minus {
+    background: #222326;
+    border : 1px solid #5a5757;
+    border-radius: 50%;
+    float: left;
+    height: 4em;
+    margin: 0.6em 0;
+    width: 20%;
+    i {
+      color : #fff;
+      display: block;
+      font-size: 2em;
+      margin: 0.5em auto;
+      width: 0.9em;
+    }
+  }
+  .amount {
+    float: left;
+    width: 59%;
+    p {
+      color: #648f00;
+      font-size: 4em;
+      font-weight: bold;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  .plus {
+    background: #222326;
+    border : 1px solid #5a5757;
+    border-radius: 50%;
+    float: left;
+    margin: 0.6em 0;
+    height: 4em;
+    width: 20%;
+    i {
+      color : #fff;
+      display: block;
+      font-size: 2em;
+      margin: 0.5em auto;
+      width: 0.9em;
+    }
+  }
+  .bet-button {
+    background: #648f00;
+    border-radius: 14px;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    p {
+      color: #fff;
+      font-size: 2em;
+      font-weight: bold;
+      margin: 0;
+      padding: 0.5em 0;
+    }
+  }
+}
+
+@media screen and (min-width : 479px){
+  .bet-container{
+    .minus {
+      width: 12% !important;
+    }
+    .amount {
+      width: 27% !important;
+    }
+    .plus {
+      width: 12% !important;
+    }
+    .bet-button {
+      margin: 0.8em 0 0 2em !important;
+      width: 41% !important;
+      p {
+        padding: 0.2em 0 !important;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,3 @@
+<div class="view-title">
+  <h4>Closed Auctions (<%= @number_auctions %>)</h4>
+</div>

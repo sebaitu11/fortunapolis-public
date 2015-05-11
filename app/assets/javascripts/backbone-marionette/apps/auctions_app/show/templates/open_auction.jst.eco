@@ -1,0 +1,20 @@
+<div class="image-container">
+  <img src="/assets/<%= @product.image %>mini.png" alt="">
+</div>
+<div class="info-container">
+  <div class="title-name">
+    <h3><%= @product.name %></h3>
+    <p class="number-of-bets">Bets on Auction <%= @user_bets %></p>
+  </div>
+  <div class="clock-params clock">
+    <div class="countdown">
+      <span class="ce-hours"></span> 
+      <span class="auctions-minutes ce-minutes"></span> 
+      <span class="auctions-seconds ce-seconds"></span> 
+    </div>
+    <p>Remaining</p>
+  </div>
+  <div class="bar-item">
+    <div id="progressbar-<%= @id%>"></div>
+  </div>
+</div>

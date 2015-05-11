@@ -1,0 +1,4 @@
+<div class="categories">
+  <h4>Categories</h4>
+  <select class="select"></select>
+</div>

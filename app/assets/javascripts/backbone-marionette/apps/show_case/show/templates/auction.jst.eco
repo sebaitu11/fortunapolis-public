@@ -1,0 +1,5 @@
+<div class="auction-image">
+  <img src="/assets/<%= @product.image %>mini.png" alt="">
+  <h1><%= @product.name %></h1>
+  <i class="fa fa-chevron-circle-right"></i>
+</div>

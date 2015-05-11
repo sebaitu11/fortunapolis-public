@@ -1,0 +1,37 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require bootstrap.min
+ *= require font-awesome
+
+ *= require jquery-ui-1.10.4.custom.min
+ */
+ @import "apps/bottom";
+ @import "apps/header";
+ @import "apps/main";
+ @import "apps/bet";
+ @import "apps/sign_up";
+ @import "apps/auctions";
+ @import "apps/login";
+ @import "apps/profile";
+ @import "apps/modal";
+ @import "apps/bet-now-modal";
+ @import "apps/explore";
+ @import "apps/coins";
+
+ @import "jquery-ui-1.10.4.custom.min";
+ @import "apps/countdown";
+
+
+
+
+
+ 

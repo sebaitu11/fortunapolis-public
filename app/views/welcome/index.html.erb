@@ -1,0 +1,15 @@
+ <div class="cont">
+  <div id="header-region"></div>
+  <div id="main-region"></div>
+  <div id="bottom-menu"></div>
+  <div id="modal-region"></div>
+</div>
+
+
+<%= javascript_tag do %>
+  $(function() {
+    Ebet.start({
+      environment: "<%= Rails.env %>"
+    });
+  });
+    <% end %>

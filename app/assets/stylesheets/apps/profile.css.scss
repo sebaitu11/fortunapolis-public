@@ -1,0 +1,66 @@
+.header { overflow: hidden;}
+#user-info {
+  background: #131416;
+  padding: 1em 2em;
+  .title {
+    float: left;
+    text-align: center;
+    margin-bottom: 0.5em;
+    h2 {
+      color: #84723a;
+      margin: 0;
+    }
+  }
+  .user-data {
+    color: #648f00;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-transform: capitalize;
+  }
+  .toggle-button {
+    background: #648f00;
+    border-radius: 10px 10px 0px 0px;
+    bottom: 52px;
+    left: 0;
+    margin: 0 7em;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    p {
+      color: #fff;
+      margin: 0;
+      padding: 0.7em;
+    }
+  }
+  .inputs {
+    margin-bottom: 1.1em;
+    input {
+       border-radius: 14px;
+       border: none;
+       height: 34px;
+       text-align: center;
+       width: 100%;
+    }
+    &:last-child {
+      margin-bottom: 1em;
+    }
+    h4 {
+      color: #ccc;
+      margin: 0 0 0.5em 0;
+    }
+  }
+  .button {
+    background: #333;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 1.7em;
+    position: absolute;
+    top: -7px;
+    right: 12px;
+    p {
+      color :#fff;
+      padding: 0.5em;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

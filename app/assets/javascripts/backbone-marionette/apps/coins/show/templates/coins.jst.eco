@@ -1,0 +1,6 @@
+<h1>Current Coins</h1>
+<h4> <%= @coins %></h4>
+
+<h2> Purchase more coins! </h2>
+<div class="packs"></div>
+</div>

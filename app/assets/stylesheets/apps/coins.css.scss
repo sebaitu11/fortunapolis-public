@@ -1,0 +1,49 @@
+.coins {
+  background: #131415;
+  color: #fff;
+  padding: 0 1em;
+  text-align: center;
+  h2 {
+    font-size: 1.4em;
+    margin-bottom: 1.6em;
+  }
+  .buy-now {
+    border-radius: 14px;
+    background: #648f00;
+    float: right;
+    margin: 1.5em auto;
+    padding: 1em 0em;
+    width: 10.4em;
+    p {
+      margin : 0;
+      text-align: center;
+    }
+  }
+  .value {
+    float: left;
+    font-size: 1.2em;
+  }
+  .coins-icon {
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    width: 6.2em;
+    i {
+      color: #ffdd18;
+      font-size: 6em;
+    }
+    .number {
+      color: #333;
+      font-size: 3.5em;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      p {
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}

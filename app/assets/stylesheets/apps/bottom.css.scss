@@ -1,0 +1,96 @@
+.main-icon-home {
+  width: 1.6em;
+}
+.main-icon-explore{
+  width: 1.6em;
+}
+.main-icon-auctions{
+  width: 1.8em;
+}
+.main-icon-tickets{
+  position: relative;
+  width: 1.6em;
+  i {
+    color: #ffdd18 !important;
+  }
+}
+.main-icon-profile{
+  width: 1.5em;
+}
+.active {
+  background: #648f00;
+  color: #fff;
+  i,
+  a {
+    color : #fff !important; 
+  }
+}
+.notify {
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  p {
+    color: #333;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0em;
+  }
+}
+#bottom-menu {
+  .menu-bottom {
+    background: #222326;
+    bottom: 0;
+    left: 0;
+    height: 3.8em;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+    ul {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+    li { 
+      float : left;
+      list-style: none;
+      height: 100%;
+      margin: 0;
+      padding: 0 ;
+      width: 20%;
+      .main-icon-home,
+      .main-icon-explore, 
+      .main-icon-auctions, 
+      .main-icon-tickets ,
+      .main-icon-profile {
+        margin: auto auto;
+        margin-top: 0.4em;
+        overflow: hidden;
+        height: auto;
+        i {
+          color: #939598;
+          font-size: 26px;
+        }
+      }
+      a {
+        color: #939598;
+        display: block;
+        left :0;
+        right :0;
+        margin :0;
+        text-align: center;
+        font-size :12px;
+        text-decoration :none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width : 479px){
+  #bottom-menu {
+    display: none!important;
+  }
+}

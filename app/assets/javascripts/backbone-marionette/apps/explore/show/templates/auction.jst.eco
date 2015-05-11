@@ -1,0 +1,10 @@
+<div class="categories-list explore">
+  <h3><%= @title %></h3>
+  <div class="items">
+    <ul>
+      <%for item in @items.models:%>
+        <li><%= item.get("product").name %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>

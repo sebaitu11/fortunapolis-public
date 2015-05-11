@@ -1,0 +1,40 @@
+<div class="showcase-container">
+  <div class="title-auction">
+    <p><%= @product.description %></p>
+    <h1><%= @product.name %></h1>
+  </div>
+  <div class="image-auction">
+    <div class="bet-now">
+      <p>Place Bid</p>
+      <i class="fa fa-hand-o-down"></i>
+    </div>
+    <img src="/assets/<%= @product.image %>.jpg" alt="">
+    <i class="coin-value"><p><%= @tickets_by_bet %></p></i>
+  </div>
+</div>
+<div class="info-bar example--3">
+  <div class="bar-bets">
+   <div class="bar-item">
+    <span class="min"><%= @bets_on_auction %></span>
+      <div id="progressbar-<%=@id %>"></div>
+      <span class="max"><%= @total_bets %></span>
+    </div> 
+    <p>Current Bids</p>
+  </div>
+  <div class="time">
+    <i></i>
+    <div class="countdown" >
+      <span class="ce-hours"></span> 
+      <span class="ce-minutes"></span> 
+      <span class="ce-seconds"></span> 
+    </div>
+    <p>Time Left</p>
+  </div>
+  <div class="description">
+    <h3>Description</h3>
+    <i class="fa fa-plus-square-o"></i>
+    <div class="hide-description">
+      <%= @product.description %>
+    </div>
+  </div>
+</div>
